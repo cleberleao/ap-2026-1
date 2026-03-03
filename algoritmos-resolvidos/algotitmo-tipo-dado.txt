@@ -1,0 +1,25 @@
+Algoritmo <Tipos_Dados>
+
+Var
+INTEIRO: numeroUm;
+REAL: numeroDois;
+CARACTERE: nome;
+BOOLEANO: vf;
+
+escreva("Digite um número Inteiro: ");
+leia(numeroUm);
+escreva("Digite um número Real: ");
+leia(numeroDois);
+escreva("Digite seu nome: ");
+leia(nome);
+escreva("Digite Verdadeiro ou Falso: ");
+leia(vf);
+
+escreva("O número Inteiro é: " + numeroUm);
+escreva("O número Real é: " + numeroDois);
+escreva("O sue nome é: " + nome);
+escreva("Voce digitou verdadeiro ou falso? " + vf);
+
+
+
+
