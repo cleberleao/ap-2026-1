@@ -1,0 +1,21 @@
+//Faça um algoritmo que leia um numero e apresente os 10 proximos numeros depois dele.
+
+Algoritmo <Contador Repeticao>
+
+var
+numero, contador, i: inteiro
+
+Leia("Digite um numero inteiro: "+ numero) 1
+
+contador <- numero+10 11
+
+Enquanto (numero <= contador) Faça{
+	Escreva("Contagem crescente: "+ numero)
+	numero <- numero + 1
+}
+
+Para (i = numero, i <= contador, i++){
+	Escreva("Contagem crescente: "+ i)
+} 
+
+Fim
