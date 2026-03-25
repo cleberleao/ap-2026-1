@@ -1,0 +1,34 @@
+//Faça uma função que recebe, por parâmetro um valor N, um valor O e um valor T e calcule e escreve a taboada de 1 até T. Mostre a taboada na forma: Onde “N” é o valor de calculo da taboada “O” é o operador da tabuada e “T” é o ultimo numero que será realizado a conta da tabuada. Exemplo, n = 5, O = “S” e T = 10, irá fazer a tabuada de soma do numero 5 até chegar no numero 10.
+
+Algoritmo <Função-Taboada>
+
+Inicio
+
+var
+N, T, i: inteiro
+O: Caractere
+
+Leia("Digite o numero da Tabuada: ", N)
+Leia("Digite A para Adição, S para Subtração, D Divisão e M para Multiplicação: ", O)
+Leia("Digite o numero final da Taboada: ",T)
+
+Função Taboada(N: inteiro, O: caractere, T: Inteiro){
+	for(i=0, i<T, i++){
+		Se(O == "A"){
+			Escreva("Taboada da Adcição " + N "+" + "T" + "=" N+i)  
+		}
+		Senão Se(O == "S"){
+			Escreva("Taboada da Subtração " + N "-" + "T" + "=" N-i)  
+		}
+		Senão Se(O == "D"){
+			Escreva("Taboada da Divisão " + N "/" + "T" + "=" N/i)  
+		}
+		Senão{
+			Escreva("Taboada da Multiplicação" + N "*" + "T" + "=" N*i)  
+		}
+	}
+}
+
+Taboada(N, O, T)
+
+Fim
