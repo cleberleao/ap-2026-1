@@ -1,0 +1,52 @@
+//A concessionária de veículos “CARANGO VELHO” está vendendo os seus veículos com desconto. Faça um algoritmo que calcule e exiba o valor do desconto e o valor a ser pago pelo cliente de vários carros. O desconto deverá ser calculado de acordo com o ano do veículo. Até 2010 - 12% e acima de 2010 - 7%. O sistema deverá perguntar se deseja continuar calculando desconto até que a resposta digite: “(N) Não”. Informar total de carros com ano até 2010 e total geral.
+
+Algoritmo <Carango-Velho>
+Inicio
+
+var
+carrosAte2010[], carros2011EmDiante[]: Real
+encerrar: caractere
+valor, totalGeral: Real
+ano, i, j: Inteiro
+repetir: logica
+
+repetir <- True
+i, j <- 0
+totalGeral <- 0.0
+
+Enquanto repetir{
+	Leia("Digite o ano do veículo: ", ano)
+	Se (ano <= 2010) então{
+    		Leia("Digite o Valor do Veículo", valor)
+		carrosAte2010[i] <- (valor * 0,12) - valor
+		Leia("Continar cadastrando? S ou N", encerrar)
+		Se (encerrar == "N") Então{
+			repetir = False
+		}
+		i = i+1
+	}
+	Senão{
+		Leia("Digite o Valor do Veículo", valor)
+		carros2011EmDiante[j] <- (valor * 0,7) - valor
+		Leia("Continar cadastrando? S ou N", encerrar)
+		Se (encerrar == "N") Então{
+			repetir = False
+		}
+		j = j+1
+	}
+}
+for(i=0,i<carrosAte2010.tamanho,i++){
+	totalGeral = carrosAte2010[i]+ totalgeral
+}
+for(j=0,j<carrosAte2011.tamanho,j++){
+	totalGeral = carros2011EmDiante[j]+ totalgeral
+}
+Escreva("Informar total de carros com ano até 2010: ", carrosAte2010.tamanho)
+Escreva("Total Geral com descontos aplicados: ", totalGeral)
+
+
+Fim
+
+
+
+
