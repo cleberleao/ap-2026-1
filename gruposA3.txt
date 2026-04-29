@@ -1,6 +1,6 @@
 Projetos A3
 
-Grupo 1 - 
+Grupo 1 - Cadastro de estoque
 Deivisson
 Bruno
 Lorrane
