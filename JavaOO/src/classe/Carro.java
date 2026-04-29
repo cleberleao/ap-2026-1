@@ -1,8 +1,13 @@
+package classe;
+
+import java.time.LocalDate;
+
 public class Carro {
-    String marca;
-    String modelo;
-    Integer ano;
-    String cor;
+    private String marca;
+    private String modelo;
+    private Integer ano;
+    private String cor;
+    private LocalDate localDate;
 
     public Carro() {
     }
@@ -12,6 +17,19 @@ public class Carro {
         System.out.println("Modelo: " + carro.modelo);
         System.out.println("Ano: " + carro.ano);
         System.out.println("Cor: " + carro.cor);
+        System.out.println("Data do Cadastro: "
+                + carro.localDate.getDayOfMonth() +
+                "/"+ carro.localDate.getMonth() +
+                "/" + carro.localDate.getYear()
+        );
+    }
+
+    public LocalDate getLocalDate() {
+        return localDate;
+    }
+
+    public void setLocalDate(LocalDate localDate) {
+        this.localDate = localDate;
     }
 
     public String getMarca() {
