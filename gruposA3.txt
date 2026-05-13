@@ -5,8 +5,9 @@ Deivisson
 Bruno
 Lorrane
 Carlos
+Kaique
 
-Grupo 2 -
+Grupo 2 - Cadastro de Jogos
 Yago
 Jean
 Gabriel
@@ -23,13 +24,13 @@ Matheus
 Mylena
 Kauã
 
-Grupo 5 -
+Grupo 5 -Controle de Livros
 Pablo
 Henrique
 Pietro
 Gustavo
 
-Grupo 6 -
+Grupo 6 -Controle de Oficina
 Ruan
 Leonardo
 Cleidson

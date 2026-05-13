@@ -1,0 +1,6 @@
+Conectar codigo Java com Banco de Dados:
+
+1 - Qual banco de dados? MariaDB / MySQL
+2 - Biblioteca de conexão. mariadb-java-client-3.5.8 / mysql-connector-java-8.0.17.jar
+3 - url do banco (localhost na maquina local ou outro)
+4 - Codigo para interagir com o Banco (CRUD)
